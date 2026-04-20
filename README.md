@@ -3,9 +3,16 @@
 ![Project Animation](https://github.com/OganAltug/ME461F25_LittleDaisies/blob/main/project/ronaldo.gif)
 
 ## Project Overview
-This repository contains the CAD assemblies and electronic specifications for the final design project. The system is designed with a focus on modularity and ease of assembly, utilizing standardized fasteners and common manufacturing techniques.
+This repository contains the CAD assemblies and electronic specifications for the final design project of **ME461: Mechatronic Components and Instrumentation**. The system is designed with a focus on modularity and ease of assembly, utilizing standardized fasteners and common manufacturing techniques.
+
+It is collaboratively maintained by:
+
+- **Abdullah Naci Bodur**  
+- **Ogan Altuğ Okutan**  
+- **Buğra Çınaroğlu**
 
 ## Folder Structure
+```
 ├── base/
 │   ├── 3d/                     # 3d parts for base assembly
 │   ├── BOM of base_assembly.csv
@@ -19,7 +26,7 @@ This repository contains the CAD assemblies and electronic specifications for th
 |   └── BOM of flipper_v2_assembly.csv       
 └── media/                      # Assembly and manufacturing images
 └── pc_client_code/             # MicroPython code for Pico W
-    
+```   
 
 ## Manufacturing Specifications
 * **3D Printing:** Primary structural components are printed using **PLA**.
@@ -28,22 +35,23 @@ This repository contains the CAD assemblies and electronic specifications for th
 
 ---
 
----
-
 ## CAD Design & Assembly
 
 ### 1. Robot Base
 The primary chassis of the robot, housing the 18650 battery pack, 4S BMS, and power regulation systems. This section serves as the structural foundation for the entire assembly.
+
 ![Robot Base](media/base_assembly_1.jpg)
 ![Robot Base](media/base_assembly_2.jpg)
 
 ### 2. Flipper Mechanism
-The active actuation system of the robot. This folder contains the designs for the Nema17 stepper mounts, the MG90S servo integration, and the mechanical linkages responsible for the flipping motion.
-![Flipper Mechanism](media\media\flipper_assembly.jpg)
+The active actuation system of the robot. This folder contains the designs for the rolling carts mounts, the MG90S servo integration, and the mechanical linkages responsible for the flipping motion.
+
+![Flipper Mechanism](media/flipper_assembly.jpg)
 
 ### 3. Table Assembly
-The stationary or receiving platform of the design. It incorporates the laser-cut Plexiglass panels for visibility and structural alignment, secured with the standardized M3 hex socket screw interface.
-![Table Assembly](media\table_assembly.jpg)
+The stationary or receiving platform of the design. It incorporates the aluminum extruision parts that shows the game area, and a table that is inclined 5-8 degree relative to ground. Also 2 version of the **Flipper Robot** is shown; on the left v1 and on the right v2. Only the version 2 files added to the repository.
+
+![Table Assembly](media/table_assembly.jpg)
 
 ---
 
