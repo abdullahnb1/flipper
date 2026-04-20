@@ -1,0 +1,1 @@
+{"video_source": 0, "rotation": 180, "serial_port": "/dev/ttyACM0", "mech_offset": 200.0, "hit_dist": 150.0, "travel_limit": 300.0, "roi_id1": 1, "roi_id2": 3, "origin_id1": 1, "origin_id2": 7}

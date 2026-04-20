@@ -1,0 +1,12 @@
+<mujoco>
+    <option gravity="0 0 9.81" />
+    <option integrator="RK4" />
+
+    <worldbody>
+
+        <body name="base">
+            <geom name="table" type="box" size="1.85 0.82 0.10" pos="0.925 0.41 0.1" rgba="1 1 1 1" />
+            <geom name="left_sigma" type="box" size="0.03 0.75 0.03" pos="-0.455 0 0.40" />
+        </body>
+    </worldbody>
+</mujoco>
